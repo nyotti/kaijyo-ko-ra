@@ -3,11 +3,15 @@ body{
     background-color: #ffe6c5;
 }
 .box{
+    float: none;
+    width: auto;
+
     background-color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
     border-radius: 10px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 50px;
     padding: 30px;
     overflow-y: scroll;
 }
@@ -44,7 +48,6 @@ p{
     margin: 2em 0;
     background: #c0c0c06c;
 }
-
 h1{
     font-size: 20px;
     padding: 10px;
@@ -59,12 +62,13 @@ h3{
     font-size: 17.5px;
 
 }
-.sita{
+.subbox{
+    float: right;
+
     background-color: white;
-    padding: 10px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
     border-radius: 10px;
+    padding: 10px;
+    width: 200px;
 }
